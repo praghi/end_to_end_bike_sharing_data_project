@@ -1,0 +1,23 @@
+# Data processing
+pyspark==3.4.1
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Visualization
+matplotlib
+plotly
+
+# Streamlit app
+streamlit
+
+# FastAPI app
+fastapi
+uvicorn[standard]
+
+# Jupyter for notebook execution
+jupyter
+nbconvert
