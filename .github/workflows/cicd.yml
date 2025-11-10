@@ -1,0 +1,39 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - develop
+      - feature/*
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  test-notebook:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Checkout repository
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    # 2️⃣ Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    # 3️⃣ Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install jupyter nbconvert
+
+    # 4️⃣ Run test notebook
+    - name: Execute test.ipynb
+      run: |
+        jupyter nbconvert --to notebook --execute notebooks/test.ipynb --output notebooks/test_executed.ipynb
+
+
