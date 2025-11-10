@@ -36,4 +36,11 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute notebooks/test.ipynb --output notebooks/test_executed.ipynb
 
+    # 5️⃣ Upload executed notebook as artifact
+    - name: Upload executed notebook
+      uses: actions/upload-artifact@v3
+      with:
+        name: executed-notebook
+        path: notebooks/test_executed.ipynb
+
 
