@@ -34,7 +34,7 @@ jobs:
     # 4️⃣ Run test notebook
     - name: Execute test.ipynb
       run: |
-        jupyter nbconvert --to notebook --execute notebooks/test.ipynb --output test_executed.ipynb --output-dir=notebooks
+        jupyter nbconvert --to notebook --execute notebooks/bi_pipeline.ipynb --output test_executed.ipynb --output-dir=notebooks
 
 
     # 5️⃣ Upload executed notebook as artifact
