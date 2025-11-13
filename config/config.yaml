@@ -1,0 +1,40 @@
+# ================================
+# Bike Sharing Data Project Config
+# ================================
+
+paths:
+  # Data Layers (Medallion Architecture)
+  bronze: business_intelligence/data/bronze/
+  silver: business_intelligence/data/silver/
+  gold: business_intelligence/data/gold/
+
+  # BI Artifacts
+  powerbi: business_intelligence/visualization/powerbi/
+  logs_bi: business_intelligence/logs/bi_pipeline.log
+
+  # ML Artifacts
+  model_artifacts: machine_learning/artifacts/
+  logs_ml: machine_learning/logs/ml_pipeline.log
+
+  # Applications
+  streamlit: app/streamlit_app/
+  fastapi: app/fastapi_app/
+
+params:
+  # General Parameters
+  random_state: 42
+  test_size: 0.2
+  real_data_source_url: "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip" 
+  landing_data_file: "bike_sharing_data.csv"  
+  azure_blob_container: environment_variable_name_here
+  azure_blob_connection_string: environment_variable_name_here
+
+  # Control flags for pipeline
+  enable_dvc: false   
+  enable_incremental: false  # future upgrade
+
+environment:
+  # Environment setup
+  python_version: "3.10"
+  mode: "development"
+  dependencies_file: "requirements.txt"
