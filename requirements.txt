@@ -1,7 +1,7 @@
 # Data processing
 pyspark==3.4.1
 pandas
-numpy
+numpy<2.0
 
 # Machine Learning
 scikit-learn
@@ -21,3 +21,10 @@ uvicorn[standard]
 # Jupyter for notebook execution
 jupyter
 nbconvert
+
+#Azure Components 
+python-dotenv
+azure-identity
+azure-storage-blob
+azure-keyvault-secrets
+pyarrow
