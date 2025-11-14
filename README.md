@@ -14,17 +14,17 @@ The project is built around three major pillars:
 
 - Source data stored in Azure Blob Storage
 - Secure authentication using env and GitHub Secrets
-- Incremental ingestion based on:
+- Incremental ingestion based on (work in progress):
    - Row count comparison
-   - Max ID logic ( To be implemented)
-   - Validation (schema, emptiness, file existence) 
-   - Raw files stored in bronze folder   
-   - Clean and Transformed data silver folder
+   - Max ID logic 
+-  Validation (schema, emptiness, file existence) 
+- Raw files stored in bronze folder   
+- Clean and Transformed data silver folder
 
 # 2. Analytics & Power BI Dashboard
 
 The Gold layer powers the PedalBreeze BI Dashboard, answering key business questions:
-- Total Demand vs Expected Trend
+- Total Demand vs Expected Demand Trend
 - Median Daily Demand
 - Hourly demand patterns (0–23)
 - Seasonal ridership behaviour
@@ -79,12 +79,14 @@ This project follows enterprise-grade engineering standards:
 - Logging & Utils 
 - Metadata tracking 
 - Modular coding
-- Incremental processes ensure idempotent runs (To be implemented)
-- Logs stored under BI and ML modules
+
+# Technical Flow Chart
+  Work-in-progress 
+
 
 # Data Credit, License & Performance Measurement 
-UCI Machine Learning Dataset : https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset 
-To ensure our modeling pipeline meets industry-level quality, the project also references Kaggle’s competitive ecosystem. Aim towards achieving a Top 1% percentile ranking against challengers.
+- UCI Machine Learning Dataset : https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset   
+- To ensure our modeling pipeline meets industry-level quality, the project also references Kaggle’s competitive ecosystem. Aim towards achieving a Top 1% percentile ranking against challengers.
 
 
 ## 🛠️ Installation
