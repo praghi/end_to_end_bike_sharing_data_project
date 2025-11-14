@@ -1,4 +1,4 @@
-# 🚴 PedalBreeze — End-to-End Bike Demand Analytics Platform
+# 🚴 PedalBreeze — End-to-End Bike Demand Analytics Data Project 
 
 # Project Overview
 
