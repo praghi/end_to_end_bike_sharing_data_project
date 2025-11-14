@@ -31,10 +31,22 @@ jobs:
         pip install -r requirements.txt
         pip install jupyter nbconvert
 
-    # 4️⃣ Run test notebook
-    - name: Execute test.ipynb
-      run: |
-        jupyter nbconvert --to notebook --execute notebooks/bi_pipeline.ipynb --output test_executed.ipynb --output-dir=notebooks
+# 4️⃣ Run notebook
+- name: Execute bi_pipeline.ipynb
+  env:
+    AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+    AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+    AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+    AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
+    AZURE_CONTAINER_NAME: ${{ secrets.AZURE_CONTAINER_NAME }}
+    AZURE_VAULT_URL: ${{ secrets.AZURE_VAULT_URL }}
+    BRONZE_FOLDER_PATH: ${{ secrets.BRONZE_FOLDER_PATH }}
+    SILVER_FOLDER_PATH: ${{ secrets.SILVER_FOLDER_PATH }}
+    GOLD_FOLDER_PATH: ${{ secrets.GOLD_FOLDER_PATH }}
+  run: |
+    jupyter nbconvert --to notebook --execute notebooks/bi_pipeline.ipynb \
+    --output test_executed.ipynb \
+    --output-dir=notebooks
 
 
     # 5️⃣ Upload executed notebook as artifact

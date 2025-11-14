@@ -21,3 +21,10 @@ uvicorn[standard]
 # Jupyter for notebook execution
 jupyter
 nbconvert
+
+#Azure Components 
+python-dotenv
+azure-identity
+azure-storage-blob
+azure-keyvault-secrets
+pyarrow
