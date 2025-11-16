@@ -42,9 +42,10 @@ jobs:
           BRONZE_FOLDER_PATH: ${{ secrets.BRONZE_FOLDER_PATH }}
           SILVER_FOLDER_PATH: ${{ secrets.SILVER_FOLDER_PATH }}
           GOLD_FOLDER_PATH: ${{ secrets.GOLD_FOLDER_PATH }}
+          BI_LOG_FOLDER_PATH: ${{ secrets.BI_LOG_FOLDER_PATH }}
         run: |
           jupyter nbconvert --to notebook --execute notebooks/bi_pipeline.ipynb \
-          --output test_executed.ipynb \
+          --output bikesharing_test.ipynb \
           --output-dir=notebooks
 
       # 5️⃣ Upload executed notebook as artifact
@@ -52,4 +53,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: executed-notebook
-          path: notebooks/test_executed.ipynb
+          path: notebooks/bikesharing_test.ipynb
