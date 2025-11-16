@@ -1,0 +1,31 @@
+﻿windspeed_key,windspeed,windspeed_kmh,windspeed_bin,windspeed_category
+1,0.0,0.0,0-5 km/h,Calm
+2,0.0896,6.0,6-20 km/h,Breeze
+3,0.2537,17.0,6-20 km/h,Breeze
+4,0.2836,19.0,6-20 km/h,Breeze
+5,0.2985,20.0,6-20 km/h,Breeze
+6,0.194,13.0,6-20 km/h,Breeze
+7,0.2239,15.0,6-20 km/h,Breeze
+8,0.1343,9.0,6-20 km/h,Breeze
+9,0.1642,11.0,6-20 km/h,Breeze
+10,0.3284,22.0,21-39 km/h,Windy
+11,0.4478,30.0,21-39 km/h,Windy
+12,0.3582,24.0,21-39 km/h,Windy
+13,0.4179,28.0,21-39 km/h,Windy
+14,0.3881,26.0,21-39 km/h,Windy
+15,0.1045,7.0,6-20 km/h,Breeze
+16,0.4925,33.0,21-39 km/h,Windy
+17,0.5522,37.0,21-39 km/h,Windy
+18,0.4627,31.0,21-39 km/h,Windy
+19,0.5224,35.0,21-39 km/h,Windy
+20,0.5821,39.0,21-39 km/h,Windy
+21,0.6567,44.0,40-60 km/h,Strong Wind
+22,0.6119,41.0,40-60 km/h,Strong Wind
+23,0.7761,52.0,40-60 km/h,Strong Wind
+24,0.6866,46.0,40-60 km/h,Strong Wind
+25,0.7463,50.0,40-60 km/h,Strong Wind
+26,0.6418,43.0,40-60 km/h,Strong Wind
+27,0.806,54.0,40-60 km/h,Strong Wind
+28,0.8507,57.0,40-60 km/h,Strong Wind
+29,0.8358,56.0,40-60 km/h,Strong Wind
+30,0.7164,48.0,40-60 km/h,Strong Wind
