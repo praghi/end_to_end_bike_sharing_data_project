@@ -84,11 +84,6 @@ This project follows enterprise-grade engineering standards:
   Work-in-progress 
 
 
-# Data Credit, License & Performance Measurement 
-- UCI Machine Learning Dataset : https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset   
-- To ensure our modeling pipeline meets industry-level quality, the project also references Kaggle’s competitive ecosystem. Aim towards achieving a Top 1% percentile ranking against challengers.
-
-
 ## 🛠️ Installation
 
 Clone repo:
@@ -107,3 +102,16 @@ Install dependencies:
 ```bash
 uv pip install -r requirements.txt
 ```   
+
+# To do list 
+
+- Modular coding design 
+- Streamlit Front-end App  
+- DVC Version Control 
+- ML Flow Tracking 
+- FastAPI (optional)
+
+
+# Data Credit, License & Performance Measurement 
+- UCI Machine Learning Dataset : https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset   
+- To ensure our modeling pipeline meets industry-level quality, the project also references Kaggle’s competitive ecosystem. Aim towards achieving a Top 1% percentile ranking against challengers.

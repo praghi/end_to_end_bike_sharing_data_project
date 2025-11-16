@@ -2,6 +2,7 @@
 pyspark==3.4.1
 pandas
 numpy<2.0
+holidays
 
 # Machine Learning
 scikit-learn
@@ -28,3 +29,7 @@ azure-identity
 azure-storage-blob
 azure-keyvault-secrets
 pyarrow
+
+# Logging 
+logging
+

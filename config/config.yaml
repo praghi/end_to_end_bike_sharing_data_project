@@ -4,9 +4,9 @@
 
 paths:
   # Data Layers (Medallion Architecture)
-  bronze: business_intelligence/data/bronze/
-  silver: business_intelligence/data/silver/
-  gold: business_intelligence/data/gold/
+  bronze: business_intelligence/data/1.bronze/
+  silver: business_intelligence/data/2.silver/
+  gold: business_intelligence/data/3.gold/
 
   # BI Artifacts
   powerbi: business_intelligence/visualization/powerbi/
@@ -25,7 +25,7 @@ params:
   random_state: 42
   test_size: 0.2
   real_data_source_url: "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip" 
-  landing_data_file: "bike_sharing_data.csv"  
+  landing_data_file: "bikesharing.csv"  
   azure_blob_container: environment_variable_name_here
   azure_blob_connection_string: environment_variable_name_here
 

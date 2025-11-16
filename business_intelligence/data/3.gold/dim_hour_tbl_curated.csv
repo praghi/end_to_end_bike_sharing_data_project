@@ -1,0 +1,25 @@
+﻿hour_key,hour,hour_bin,hour_description
+0,0,0-4,Late Night
+1,1,0-4,Late Night
+2,2,0-4,Late Night
+3,3,0-4,Late Night
+4,4,0-4,Late Night
+5,5,5-7,Early Morning
+6,6,5-7,Early Morning
+7,7,5-7,Early Morning
+8,8,8-17,Office Hours
+9,9,8-17,Office Hours
+10,10,8-17,Office Hours
+11,11,8-17,Office Hours
+12,12,8-17,Office Hours
+13,13,8-17,Office Hours
+14,14,8-17,Office Hours
+15,15,8-17,Office Hours
+16,16,8-17,Office Hours
+17,17,8-17,Office Hours
+18,18,18-20,Evening
+19,19,18-20,Evening
+20,20,18-20,Evening
+21,21,21-23,Night
+22,22,21-23,Night
+23,23,21-23,Night
