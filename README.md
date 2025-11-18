@@ -39,9 +39,9 @@ The dashboard showcases:
 - KPI cards, time-series graphs, heatmaps
 - Slicers for season, weather, date range
 
-## Power BI File Path : 
+## Power BI File Path :  
   - [Dashboard pbi path](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi)
-  - [Measures List](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi)
+  - [Measures List](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi) 
   - [Useful Icons](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/icons)
 
 ## PHASE II
@@ -88,13 +88,16 @@ This project follows enterprise-grade engineering standards:
 
 # Technical Flow Chart   
   - [Docs](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs)
+  
   ![Tech Diagram](https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/icons/PedalBreezeBikeSharing_Technical_Flow_Chart.png)
-  - ![Project Structure] (https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs/Project_Snapshot.png)
+
+
+  ![ProjectStructure] (https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/docs/Project_Snapshot.png)
 
 
 # Notebooks 
-- [BI Pipeline](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs) 
-- [ML Pipeline] 
+- [BI Pipeline](https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/notebooks/bi_pipeline.ipynb) 
+- [ML Pipeline](https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/notebooks/ml_pipeline.ipynb)
 
 
 ## 🛠️ Installation
