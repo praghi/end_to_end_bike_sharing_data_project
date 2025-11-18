@@ -2,13 +2,14 @@
 
 # Project Overview
 
-PedalBreeze is a fictitious bike-sharing startup headquartered in LA, USA.
+PedalBreeze is a fictitious bike-sharing startup headquartered in Washington DC, USA.
 After two years of operations, the company has collected a significant amount of rider usage data, but lacks the analytical capability to transform it into meaningful business insights.
 
 This project simulates how a  real life Data Scientists builds a complete end-to-end analytics platform to support executive decision-making and scalability.
 
-The project is built around three major pillars:
+The project is built around three major pillars divided into II phases :
 
+## PHASE I
  # 1. Business Intelligence & Data Engineering
 🔹 Ingestion | Transformation Layer 
 
@@ -38,7 +39,12 @@ The dashboard showcases:
 - KPI cards, time-series graphs, heatmaps
 - Slicers for season, weather, date range
 
-## Power BI File Path : https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/develop/business_intelligence/visualization/powerbi 
+## Power BI File Path : 
+  - [Dashboard pbi path](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi)
+  - [Measures List](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi)
+  - [Useful Icons](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/icons)
+
+## PHASE II
 
 # 3. Machine Learning + Streamlit MVP App
 
@@ -47,7 +53,7 @@ PedalBreeze aims to forecast hourly bike demand using inputs such as:
 - Temperature
 - Weather category
 - Hour of day
-- Season
+- Seasons
 - Humidity & windspeed
 
 The ML workflow includes:
@@ -80,8 +86,15 @@ This project follows enterprise-grade engineering standards:
 - Metadata tracking 
 - Modular coding
 
-# Technical Flow Chart
-  Work-in-progress 
+# Technical Flow Chart   
+  - [Docs](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs)
+  ![Tech Diagram](https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/icons/PedalBreezeBikeSharing_Technical_Flow_Chart.png)
+  - ![Project Structure] (https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs/Project_Snapshot.png)
+
+
+# Notebooks 
+- [BI Pipeline](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs) 
+- [ML Pipeline] 
 
 
 ## 🛠️ Installation
@@ -105,6 +118,7 @@ uv pip install -r requirements.txt
 
 # To do list 
 
+- ML Bikesharing Predictive Model 
 - Modular coding design 
 - Streamlit Front-end App  
 - DVC Version Control 
