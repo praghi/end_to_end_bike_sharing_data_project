@@ -39,9 +39,9 @@ The dashboard showcases:
 - KPI cards, time-series graphs, heatmaps
 - Slicers for season, weather, date range
 
-## Power BI File Path : 
+## Power BI File Path :  
   - [Dashboard pbi path](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi)
-  - [Measures List](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi)
+  - [Measures List](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/business_intelligence/visualization/powerbi) 
   - [Useful Icons](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/icons)
 
 ## PHASE II
