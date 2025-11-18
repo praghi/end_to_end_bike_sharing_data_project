@@ -89,12 +89,12 @@ This project follows enterprise-grade engineering standards:
 # Technical Flow Chart   
   - [Docs](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs)
   ![Tech Diagram](https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/icons/PedalBreezeBikeSharing_Technical_Flow_Chart.png)
-  - ![Project Structure] (https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs/Project_Snapshot.png)
+  ![ProjectStructure] (https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/docs/Project_Snapshot.png)
 
 
 # Notebooks 
 - [BI Pipeline](https://github.com/praghi/end_to_end_bike_sharing_data_project/tree/main/docs) 
-- [ML Pipeline] 
+- [ML Pipeline](https://github.com/praghi/end_to_end_bike_sharing_data_project/blob/main/notebooks/ml_pipeline.ipynb)
 
 
 ## 🛠️ Installation
