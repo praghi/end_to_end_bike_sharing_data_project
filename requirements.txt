@@ -31,5 +31,7 @@ azure-keyvault-secrets
 pyarrow
 
 # Logging 
-logging
+logging 
 
+#Warning Management
+warnings
